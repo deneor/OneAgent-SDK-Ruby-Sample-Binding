@@ -2,8 +2,8 @@
 
 How to reproduce:
 * clone this repo
-* `git submodules init && git submodules update`
-* `docker build -t oneagent_sdk .``
+* `git submodule init && git submodule update`
+* `docker build -t oneagent_sdk .`
 * `docker run --rm -it oneagent_sdk`
 * `require_relative 'oneagentsdk'`
 
